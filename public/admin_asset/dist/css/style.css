@@ -1,0 +1,44 @@
+.input-width{
+	width:40% !important;
+}
+
+.btn-mleft{
+	margin-left: 1em;
+}
+
+.icon-mright{
+	margin-right:0.6em;
+}
+
+.font-title{
+	font-size: 1.2em;
+}
+
+.radio-change{
+	cursor: pointer;
+}
+
+.usr-name{
+	margin-right: 0.2em;
+}
+
+.calen{
+	margin-top: 2em;
+}
+
+.cate-list{
+	cursor: pointer;
+}
+
+.sum-p{
+	padding:1em;
+	font-weight: 500;
+}
+
+.modal-login{
+	width: 35em !important;
+}
+
+.error-sec{
+	margin-top: 1em;
+}
