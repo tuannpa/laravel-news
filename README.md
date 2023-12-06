@@ -1,4 +1,4 @@
-# Backend Laravel
+# Laravel News App
 
 **Prerequisites**
 
