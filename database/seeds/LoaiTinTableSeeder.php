@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class LoaiTinTableSeeder extends Seeder
 {
@@ -11,7 +12,6 @@ class LoaiTinTableSeeder extends Seeder
      */
     public function run()
     {
-        //
         DB::table('LoaiTin')->insert([
         	['idTheLoai'=>'1','Ten' => 'Giáo Dục','TenKhongDau' => 'Giao-Duc'],
         	['idTheLoai'=>'1','Ten' => 'Nhịp Điệu Trẻ','TenKhongDau' => 'Nhip-Dieu-Tre'],

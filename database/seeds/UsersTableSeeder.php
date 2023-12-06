@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class UsersTableSeeder extends Seeder
 {
@@ -11,7 +12,6 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        //
         for($i = 1; $i <= 10;$i++)
         {
         	DB::table('Users')->insert(
